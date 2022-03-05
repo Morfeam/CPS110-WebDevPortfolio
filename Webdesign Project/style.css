@@ -1,0 +1,267 @@
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:beige;
+}
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #263238;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #cfd8dc;
+    color: black;
+  }
+
+  .header {
+      margin:0;
+      font-size: 28px;
+      font-family:Arial, Helvetica, sans-serif;
+    padding: 1px;
+    text-align: center;
+    background: #455a64;
+    color:#F5F5F5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .card {
+    margin: 70px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    background-color:#eceff1;
+  }
+  .updateText{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  footer{
+    text-align: center;
+    overflow: hidden;
+    background-color: #263238;
+    color:#eceff1;
+    
+  }
+
+  .Homepagebackground{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("City6.jpg");
+    background-size: cover;
+  }
+
+  
+  .img1{
+    border: 1px solid #333;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:auto; 
+  }
+  
+  .button4 {
+    background-color: #455a64;
+    color: #b0bec5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  
+  .button4:hover {
+      background-color: #e7e7e7;
+      color: #263238;
+}
+
+.headerContact {
+  padding: 5px;
+  text-align:center;
+  background: transparent;
+  color:#F5F5F5;
+  margin-left: 10%;
+  margin-right: 50%;
+  border-radius: 50px;
+}
+
+  .contactbackground{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("City2.jpg");
+    background-size: cover;
+  }
+
+  .bigHeader{
+    font-size: 76px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .cardContact{
+    border-radius: 5px;
+    text-align: left;
+    padding: 1px;
+    color: #333;
+    background-color:#eceff1;
+    margin-left: 10%;
+
+  }
+
+  .cardContact > p{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .cardContact > ul{
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  .cardContact ul > li > a{
+    color:#333;
+  }
+
+  .Projectsbackground{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("City5.jpg");
+    background-size: cover;
+  }
+
+  .Projectsphoto{
+    max-width: 300px;
+    margin: 15px;
+  }
+  
+  .Projectsphoto img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .Projectscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .Projectscard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    text-align:left;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color:#eeeeee;
+  }
+
+  .Ptext{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .Projectsheader{
+    font-size: 20px;
+  }
+  
+  .Projectsmainheader{
+    padding: 0px;
+    text-align:center;
+    background: transparent;
+    color:#F5F5F5;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  .PbigHeader{
+    margin: 32px;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .headerAbout{
+    padding: 0px;
+    text-align:center;
+    background: transparent;
+    color:#263238;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+
+  .Aboutbackground{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(235, 235, 235);
+    background: url("City7.jpg");
+    background-size: cover;
+  }
+
+
+  .cardAbout{
+    border-radius: 1px;
+    text-align: left;
+    padding: 1px;
+    color: #333;
+    background-color:rgb(223, 223, 223);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:0;
+    padding:0;
+  }
+
+  .aboutImage{
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  
+  .aboutText{
+    margin-left: 10px;
+    padding:75px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+  }
+
+  .Aboutsmallheader{
+    font-size: 32px;
+  }
